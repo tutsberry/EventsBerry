@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.tutsberry.eventsberry.util.FontView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:text="&#xf179;"
+        android:gravity="center"
+        android:id="@+id/iconView"
+        android:background="@drawable/oval"
+        android:padding="10dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/iconTextView"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>

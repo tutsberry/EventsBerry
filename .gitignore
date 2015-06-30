@@ -1,2 +1,8 @@
 laravel/vendor
 laravel/node_modules
+android/.gradle
+android/.idea
+android/.gradle
+android/build
+android/captures
+.DS_Store
